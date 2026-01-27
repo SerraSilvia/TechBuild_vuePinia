@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "userName": "Eduardo",
+    "role": "Creador",
+    "github": "https://github.com/posva",
+    "password": "1234"
+  },
+  {
+    "id": 2,
+    "userName": "Anthony Fu",
+    "role": "Creador",
+    "github": "https://github.com/antfu",
+    "password": "1234"
+  },
+  {
+    "id": 3,
+    "userName": "Evan You",
+    "role": "Creador",
+    "github": "https://github.com/yyx990803",
+    "password": "1234"
+  },
+    {
+    "id": 4,
+    "userName": "Silvia",
+    "role": "Programadora",
+    "github": "https://github.com/",
+    "password": "1234"
+  }
+]

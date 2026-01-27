@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Intel Core i9-13900K",
+    "type": "CPU",
+    "price": 580,
+    "image": "https://placehold.jp/24/3e8ed0/ffffff/200x200.png?text=Intel+i9"
+  },
+  {
+    "id": 2,
+    "name": "AMD Ryzen 9 7950X",
+    "type": "CPU",
+    "price": 550,
+    "image": "https://placehold.jp/24/d32f2f/ffffff/200x200.png?text=Ryzen+9"
+  },
+  {
+    "id": 3,
+    "name": "NVIDIA RTX 4080 Super",
+    "type": "GPU",
+    "price": 1150,
+    "image": "https://placehold.jp/24/76b900/ffffff/200x200.png?text=RTX+4080"
+  },
+  {
+    "id": 4,
+    "name": "AMD Radeon RX 7900 XTX",
+    "type": "GPU",
+    "price": 950,
+    "image": "https://placehold.jp/24/c62828/ffffff/200x200.png?text=RX+7900XTX"
+  },
+  {
+    "id": 5,
+    "name": "Corsair Vengeance 32GB DDR5",
+    "type": "RAM",
+    "price": 160,
+    "image": "https://placehold.jp/24/424242/ffffff/200x200.png?text=RAM+DDR5"
+  },
+  {
+    "id": 6,
+    "name": "G.Skill Trident Z5 32GB",
+    "type": "RAM",
+    "price": 180,
+    "image": "https://placehold.jp/24/6a1b9a/ffffff/200x200.png?text=G.Skill+RAM"
+  },
+  {
+    "id": 7,
+    "name": "ASUS ROG Strix Z790-E",
+    "type": "Motherboard",
+    "price": 450,
+    "image": "https://placehold.jp/24/1a237e/ffffff/200x200.png?text=Z790+MB"
+  },
+  {
+    "id": 8,
+    "name": "MSI MPG X670E Carbon",
+    "type": "Motherboard",
+    "price": 430,
+    "image": "https://placehold.jp/24/004d40/ffffff/200x200.png?text=X670E+MB"
+  },
+  {
+    "id": 9,
+    "name": "Samsung 990 Pro 2TB",
+    "type": "Storage",
+    "price": 190,
+    "image": "https://placehold.jp/24/1565c0/ffffff/200x200.png?text=SSD+2TB"
+  },
+  {
+    "id": 10,
+    "name": "WD Black SN850X 1TB",
+    "type": "Storage",
+    "price": 110,
+    "image": "https://placehold.jp/24/212121/ffffff/200x200.png?text=WD+Black"
+  }
+]
