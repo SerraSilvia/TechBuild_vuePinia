@@ -1,6 +1,12 @@
 <script setup>
-const emit = defineEmits(['start-building']);
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
+const goToStore = () => {
+  router.push('/botiga')
+}
 </script>
+
 
 <template>
   <div class="home-container">
@@ -20,7 +26,7 @@ const emit = defineEmits(['start-building']);
         Selecciona els components d'última generació i domina la galàxia amb <span class="highlight">TechBuilds</span>.
       </p>
 
-      <button class="cta-button" @click="$emit('start-building')">
+      <button class="cta-button" @click="goToStore">
         COMENÇA A CONSTRUIR
       </button>
     </div>
