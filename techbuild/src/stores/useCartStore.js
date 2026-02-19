@@ -17,17 +17,22 @@ export const useCartStore = defineStore('cart', {
       this.saveToLocalStorage();
     },
     removeComponent(id) {
-      // Filtramos para quitar el elemento con ese ID
       this.components = this.components.filter(item => item.id !== id);
       this.saveToLocalStorage();
     },
+    // --- NUEVA ACCIÓN PARA EL RESETEO ---
+clearCart() {
+  this.components = []; // Limpiamos el estado reactivo
+  localStorage.removeItem('cart'); // Borramos físicamente el archivo de caché
+  console.log("SISTEMA: LocalStorage limpiado.");
+},
+    // ------------------------------------
     saveToLocalStorage() {
       localStorage.setItem('cart', JSON.stringify(this.components));
     },
     checkout() {
       alert(`Compra finalizada por un total de ${this.totalPrice}€`);
-      this.components = [];
-      this.saveToLocalStorage();
+      this.clearCart(); // Reutilizamos clearCart aquí para no repetir código
     }
   }
 });

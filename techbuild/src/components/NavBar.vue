@@ -1,3 +1,8 @@
+<script setup>
+import CuentaWidget from './CuentaWidget.vue';
+import CartWidget from './CartWidget.vue';
+</script>
+
 <template>
   <header class="cyber-header">
     <div class="logo-container">
