@@ -1,21 +1,16 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
+import usersData from '@/data/users.json';
 
-
-export const useUserStore = defineStore('storeUser', {
+export const useUsersStore = defineStore('users', {
   state: () => ({
-    // valors per defecte
-    userName: 'Silvia', 
-    role: 'Programadora',
-    github: 'https://github.com/'
+    // Cargamos el primer usuario del JSON como usuario activo
+    currentUser: usersData[0], 
+    allUsers: usersData
   }),
   actions: {
-    actualUser(user) {
-      this.userName = user.userName
-      this.role = user.role
-      this.github = user.github
-    },
-    visitaGitHub() {
-      window.open(this.github, '_blank')
+    // Acción para cambiar de usuario (opcional por ahora)
+    login(user) {
+      this.currentUser = user;
     }
   }
-})
+});
